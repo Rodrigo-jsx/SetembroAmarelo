@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1,
+h2 {
+    font-family: "HK Grotesk";
+}
+
+p {
+    font-family: "Libre Baskerville";
+}
+
+body {
+    background-color: #FBEC9D;
+}
+
+#conscientizacao_logo {
+    margin-top: 10px;
+    margin-left: 60px;
+
+}
+
+.titulo-principal {
+    display: flex;
+
+}
+
+.titulo-principal img {
+    /* margin-bottom: 45px; */
+    /* border: 1px solid black ; */
+    width: 30px;
+}
+
+nav {
+    color: white;
+    display: flex;
+    gap: 42px;
+    justify-content: center;
+    background-color: #393533;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-setembro-amarelo {
+    width: 40px;
+    margin-left: 20px;
+}
+
+.texto-caixa {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.caixa-verde {
+    width: 280px;
+    height: 150px;
+    background-color: #606B3E;
+    border-radius: 10px;
+}
+
+h2,
+.caixa-verde p {
+    color: white;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.caixa-verde-claro {
+    background-color: #817835;
+    width: 400px;
+    height: 150px;
+    margin-left: 0;;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+
+}
+
+.texto-caixa-verde-claro {
+    display: flex;    
+    margin-left: 80px;
+    margin-right: 80px;
+    gap:64px;
+} 
+
+.texto h2 {
+    color: black;
+    font-weight: 800;
+}
+
+.titulo-secundario {
+    display: flex;
+}
+
+#escudo {
+    width: 45px;
+    height: 45px;
+}
+.acolhimento{
+    margin-top: 10px;
+    width: 500px;
+    height: 110px;
+    background-color: #E7AF3B;
+    margin-left:80px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.acolhimento p{
+    color:white;
+    padding:5px; 
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-right:90px;
+}
