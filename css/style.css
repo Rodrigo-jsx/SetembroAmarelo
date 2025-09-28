@@ -81,7 +81,8 @@ h2,
     background-color: #817835;
     width: 400px;
     height: 150px;
-    margin-left: 0;;
+    margin-left: 0;
+    ;
     border-radius: 10px;
     color: white;
     padding: 10px;
@@ -89,11 +90,11 @@ h2,
 }
 
 .texto-caixa-verde-claro {
-    display: flex;    
+    display: flex;
     margin-left: 80px;
     margin-right: 80px;
-    gap:64px;
-} 
+    gap: 64px;
+}
 
 .texto h2 {
     color: black;
@@ -108,22 +109,53 @@ h2,
     width: 45px;
     height: 45px;
 }
-.acolhimento{
+
+.acolhimento {
     margin-top: 10px;
     width: 500px;
     height: 110px;
     background-color: #E7AF3B;
-    margin-left:80px;
+    margin-left: 80px;
     padding: 5px;
     border-radius: 10px;
 }
-.acolhimento p{
-    color:white;
-    padding:5px; 
+
+.acolhimento p {
+    color: white;
+    padding: 5px;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
-    margin-right:90px;
+    margin-right: 90px;
+}
+
+/* Branch 'conteudo-site' abaixo */
+.div-set-am-p {
+    margin-top: 50px;
+    width: 1100px;
+    margin-left: 100px
+}
+
+.o-que-e-set-am {
+    color: #5F6A3E;
+    text-align: center;
+}
+
+#apoio {
+    background-color: #E7AF3B;
+}
+
+.tres-caixas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    width: 1100px;
+    margin-left: 100px;
+}
+
+.caixa {
+    width: 300px;
+    height: 300px;
 }
