@@ -45,6 +45,7 @@ nav {
     justify-content: center;
     background-color: #393533;
     padding: 10px;
+
 }
 
 a {
@@ -133,12 +134,12 @@ h2,
 
 /* Branch 'conteudo-site' abaixo */
 .div-set-am-p {
-    margin-top: 50px;
+    margin-top: 35px;
     width: 1100px;
     margin-left: 100px
 }
 
-.o-que-e-set-am {
+#o-que-e-set-am {
     color: #5F6A3E;
     text-align: center;
 }
@@ -157,5 +158,65 @@ h2,
 
 .caixa {
     width: 300px;
-    height: 300px;
+    height: 200px;
+}
+
+#balao-dialogo {
+    width: 60px;
+    height: 60xp;
+    margin-top: 10px
+}
+
+#img-1 {
+    margin-top: 10px;
+}
+
+#forca {
+    background-color: #E7AF3B;
+}
+
+.frases-que-inspiram {
+    display: flex;
+    justify-content: center;
+
+}
+
+.frases-que-inspiram h2 {
+    text-align: center;
+    color: #5F6A3E;
+    width: 400px;
+     margin-right: 60px;
+
+}
+
+.frases {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1100px;
+    margin-left: 100px;
+}
+
+.frase {
+    height: 180px;
+    border: 1px solid #817835;
+    padding: 10px;
+    width: 300px;
+}
+
+#frase-1 {
+    border-color: #616B3B;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+#frase-2 {
+    border-color: #82782E;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+#frase-3 {
+    border-color: #E7AF3B;
+    border-width: 5px;
+    border-radius: 10px;
 }
