@@ -104,6 +104,8 @@ h2,
 
 .titulo-secundario {
     display: flex;
+    justify-content: flex-start;
+
 }
 
 #escudo {
@@ -116,7 +118,7 @@ h2,
     width: 500px;
     height: 110px;
     background-color: #E7AF3B;
-    margin-left: 80px;
+    margin-left: 85px;
     padding: 5px;
     border-radius: 10px;
 }
@@ -185,7 +187,7 @@ h2,
     text-align: center;
     color: #5F6A3E;
     width: 400px;
-     margin-right: 60px;
+    margin-right: 60px;
 
 }
 
@@ -219,4 +221,28 @@ h2,
     border-color: #E7AF3B;
     border-width: 5px;
     border-radius: 10px;
+}
+
+.laco-amarelo-h2 h2 {
+    color: black;
+    margin-left: 60px;
+}
+
+.laco-amarelo-imagem-paragrafo {
+    display: flex;
+    justify-content: center;
+}
+
+.laco-amarelo-h2 h2 {
+    color: #5F6A3E;
+}
+
+#apoio-2 {
+    background-color: #E7AF3B;
+}
+
+.container-laco-amarelo {
+    width: 750px;
+    margin-left: 250px;
+
 }
