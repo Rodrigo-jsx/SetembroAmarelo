@@ -132,6 +132,7 @@ h2,
     display: flex;
     justify-content: center;
     margin-right: 90px;
+    width: 1400px;
 }
 
 /* Branch 'conteudo-site' abaixo */
@@ -180,7 +181,7 @@ h2,
 .frases-que-inspiram {
     display: flex;
     justify-content: center;
-
+    
 }
 
 .frases-que-inspiram h2 {
@@ -245,4 +246,60 @@ h2,
     width: 750px;
     margin-left: 250px;
 
+}
+
+/* Branch listas-aprendizados abaixo*/
+.listas-aprendizados{
+    margin-left:120px
+}
+.listas-aprendizados h2{
+    color: black;
+    margin-left:100px;
+}
+/* .lista-ordenada{
+    display: flex;
+    justify-content:flex-start;
+} */
+.lista-ordenada-desordenada{
+    display: flex;
+    justify-content: space-around;
+    gap:120px;
+    /* border: 1px solid black;  */
+}
+.cinco-caixas-grid{
+    width: 1200px;    
+}
+.tres-caixas-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+}
+.card{
+    background-color:#5F6A3E;
+    width: 320px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card h3, .card p{
+    color: white;
+    font-size:10px;
+}
+.duas-caixas{
+    display: flex;
+    justify-content: center;
+    gap:10px
+}
+#autoconhecimento{
+    font-weight: 900;
+}
+#qualidade{
+    background-color: #E7AE3C;
+    color:black;
+}
+#capacidade-amar{
+    font-weight: 900;
+}
+#saudaveis{
+    background-color: #E7AE3C;
+    color: black;
 }
