@@ -295,3 +295,9 @@ h2,
     background-color: #E7AF3B;
     font-size: 21px;
 }
+
+.imagem1 img{
+    width: 320px;
+    height: 480px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
