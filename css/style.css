@@ -181,7 +181,7 @@ h2,
 .frases-que-inspiram {
     display: flex;
     justify-content: center;
-    
+
 }
 
 .frases-que-inspiram h2 {
@@ -249,57 +249,97 @@ h2,
 }
 
 /* Branch listas-aprendizados abaixo*/
-.listas-aprendizados{
-    margin-left:120px
+.listas-aprendizados {
+    margin-left: 120px
 }
-.listas-aprendizados h2{
+
+.listas-aprendizados h2 {
     color: black;
-    margin-left:100px;
+    margin-left: 100px;
 }
+
 /* .lista-ordenada{
     display: flex;
     justify-content:flex-start;
 } */
-.lista-ordenada-desordenada{
+.lista-ordenada-desordenada {
     display: flex;
     justify-content: space-around;
-    gap:120px;
+    gap: 120px;
     /* border: 1px solid black;  */
 }
-.cinco-caixas-grid{
-    width: 1200px;    
+
+.cinco-caixas-grid {
+    width: 1200px;
 }
-.tres-caixas-2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap:10px;
+
+.tres-caixas-2 {
+display: flex;
+justify-content: center;
+gap:10px;   
+margin-bottom: 10px;
 }
-.card{
-    background-color:#5F6A3E;
-    width: 320px;
+
+.card {
+    background-color: #5F6A3E;
+    width:160px;
     border-radius: 10px;
     padding: 10px;
 }
-.card h3, .card p{
+
+.card h3,
+.card p {
     color: white;
-    font-size:10px;
+    font-size: 10px;
 }
-.duas-caixas{
+
+.duas-caixas {
     display: flex;
     justify-content: center;
-    gap:10px
+    gap: 10px
 }
-#autoconhecimento{
+
+#autoconhecimento {
     font-weight: 900;
 }
-#qualidade{
+
+#qualidade {
     background-color: #E7AE3C;
-    color:black;
+    color: black;
 }
-#capacidade-amar{
+
+#capacidade-amar {
     font-weight: 900;
 }
-#saudaveis{
+
+#saudaveis {
+    background-color: #E7AE3C;
+    color: black;
+}
+
+#bem-estar {
+    font-weight: 900;
+}
+
+#capacidade-aprendizado {
+    background-color: #E7AE3C;
+    color: black;
+}
+
+#conexao {
+    font-weight: 900;
+}
+
+#sintomas {
+    background-color: #E7AE3C;
+    color: black;
+}
+
+#autoimagem {
+    font-weight: 900;
+}
+
+#desafios-vida {
     background-color: #E7AE3C;
     color: black;
 }
