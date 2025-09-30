@@ -296,8 +296,25 @@ h2,
     font-size: 21px;
 }
 
-.imagem1 img{
+.titulo-imagem-representativa {
+    text-align: center;
+    color: #5F6A3E;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.imagem1 img,
+.imagem2 img,
+.imagem3 img {
     width: 320px;
     height: 480px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.imagens-flex {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
