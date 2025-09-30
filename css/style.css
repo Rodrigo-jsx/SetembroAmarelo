@@ -279,7 +279,10 @@ justify-content: center;
 gap:10px;   
 margin-bottom: 10px;
 }
-
+.importancia-saude-mental{
+    text-align: center;
+    margin-right: 320px;
+}
 .card {
     background-color: #5F6A3E;
     width:160px;
