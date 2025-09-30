@@ -248,6 +248,78 @@ h2,
 
 }
 
+
+.titulo-video-que-inspiram {
+    color: #5F6A3E;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+
+}
+
+.videos-flex {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.videos-flex .video1,
+.videos-flex .video2,
+.videos-flex .video3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 350px;
+    word-break: break-word;
+}
+
+.videos-flex .video1 p,
+.videos-flex .video2 p,
+.videos-flex .video3 p,
+.videos-flex .video3 span {
+    max-width: 350px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    margin-top: 10px;
+}
+
+
+.videos-flex iframe {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+#nome-depoimento3, #nome-depoimento2, #nome-depoimento1 {
+    background-color: #E7AF3B;
+    font-size: 21px;
+}
+
+.titulo-imagem-representativa {
+    text-align: center;
+    color: #5F6A3E;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.imagem1 img,
+.imagem2 img,
+.imagem3 img {
+    width: 320px;
+    height: 480px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.imagens-flex {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+
 /* Branch listas-aprendizados abaixo*/
 .listas-aprendizados {
     margin-left: 120px
@@ -345,4 +417,5 @@ margin-bottom: 10px;
 #desafios-vida {
     background-color: #E7AE3C;
     color: black;
+
 }
