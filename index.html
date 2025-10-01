@@ -198,6 +198,14 @@
         </div>
     </div>
     
+    <div class="formulario-de-apoio">
+        <h2 class="titulo-formulario-de-apoio">Formulário de Apoio Emocional</h2>
+        <p>
+            Se você está passando por um <span id="apoio">momento difícil </span>, preencha o formulário abaixo para receber apoio emocional.
+            Lembre-se, você não está sozinho e há pessoas dispostas a ajudar.
+        </p>
+    </div>
+
     <form action="">
         <h2>Preencha o formulário</h2>
         <label for="nome">Nome:</label>
@@ -206,6 +214,23 @@
         <input type="number" id="idade" name="idade" required>
         <label for="telefone">Telefone:</label>
         <input type="tel" id="telefone" name="telefone" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensagem">Como você se sente hoje? (1= muito mal, 10 = muito bem)</label>
+        <input type="number" id="mensagem" name="mensagem" min="1" max="10" required>
+        <label for="recurso-apoio">Você conhece recursos de apoio emocional?</label>
+        <select id="recurso-apoio" name="recurso-apoio" required>
+            <option value="">Selecione</option>
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+        </select>
+        <label for="risco-imediato">Você está em risco imediato ou em situação de crise agora?</label>
+        <select name="risco-imediato" id="risco-imediato" required>
+            <option value="">Selecione</option>
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+        </select>
+        <button type="submit">Enviar</button>
     </form>
 </body>
 </html>
