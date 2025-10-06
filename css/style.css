@@ -195,10 +195,10 @@ h2,
 }
 
 .frases-que-inspiram h2 {
-    text-align: center;
+    /* text-align: center; */
     color: #5F6A3E;
-    width: 400px;
-    margin-right: 60px;
+    /* width: 400px; */
+    /* margin-right: 60px; */
 
 }
 
@@ -235,29 +235,34 @@ h2,
     border-width: 5px;
     border-radius: 10px;
 }
-
-.laco-amarelo-h2 h2 {
-    color: black;
-    margin-left: 60px;
+.laco-amarelo-h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
 }
+.laco-amarelo-h2 h2 {
+    
+    /* border: 1px solid black; */
+ color: #5F6A3E;
+}
+
 
 .laco-amarelo-imagem-paragrafo {
     display: flex;
     justify-content: center;
+    width: 900px;
 }
-
-.laco-amarelo-h2 h2 {
-    color: #5F6A3E;
-}
+ 
 
 #apoio-2 {
     background-color: #E7AF3B;
 }
 
 .container-laco-amarelo {
-    margin-left: 250px;
+  
     display: flex;
     justify-content: center;
+    
 }
 
 
@@ -395,7 +400,7 @@ form h2 {
 
 .listas-aprendizados h2 {
     color: black;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 
