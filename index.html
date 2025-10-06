@@ -22,46 +22,11 @@
             <a href="#formulario">FORMULÁRIO</a>
         </nav>
     </header>
+
     <aside id="conscientizacao_logo">
         <img src="assets/conscientizacao-logo.png" alt="">
     </aside>
-
-    <div class="texto-caixa">
-        <section class="texto">
-            <div class="titulo-principal">
-                <h1 id="home">Setembro Amarelo</h1>
-                <img class="logo-setembro-amarelo" src="assets/setembro-amarelo-simbolo.png" alt="">
-            </div>
-            <p> O mês dedicado à conscientização sobre a prevenção ao suicídio, marcado pelo símbolo do laço <br>
-                amarelo que representa a esperança e solidariedade.
-            </p>
-        </section>
-        <div class="caixa-verde">
-            <h2>Conscientização</h2>
-            <p>Educar a sociedade sobre os fatores de risco e sinais de alerta relacionados ao comportamento suicida.
-            </p>
-        </div>
-    </div>
-
-    <div class="texto-caixa-verde-claro">
-        <div class="caixa-verde-claro">
-            <h2>Prevenção</h2>
-            <p>Implementar estratégias eficazes para reduzir os indíces de suicídio através do diálogo e apoio.</p>
-        </div>
-        <section class="texto">
-            <div class="titulo-secundario">
-                <h2>Prevenção ao Suicídio</h2>
-                <img id="escudo" src="assets/escudo.png" alt="Escudo">
-            </div>
-            <p>Uma abordagem compassiva e científica para identificar sinais de alerta e oferecer apoio adequado a
-                pessoas em situação de vulnerabilidade social.</p>
-        </section>
-    </div>
-    <div class="container">
-        <div class="acolhimento">
-            <h2>Acolhimento</h2>
-            <p>Criar redes de apoio que ofereçam escuta qualificada e encaminhamento profissional.</p>
-        </div>
+      
     </div>
     <main class="div-set-am-p">
         <h2 id="o-que-e-set-am">O que é o Setembro Amarelo?</h2>
@@ -148,9 +113,12 @@
         </div>
     </div>
     <div class="listas-aprendizados">
-        <h2>Listas e aprendizados</h2>
+        <div class="h2-listas">
+            <h2>Listas e aprendizados</h2>
+       
         <h2 id="aprendizados">Aprendizados sobre Setembro Amarelo</h2>
-        <div class="lista-ordenada-desordenada">
+         </div>
+         <div class="lista-ordenada-desordenada">
             <div id="lista-1">
                 <ol>
                     <li>Reconhecer os sinais de alerta em si mesmo e nos outros</li>
@@ -204,15 +172,19 @@
                 <h3>Saúde Física</h3>
                 <p>Existe uma <span id="conexao"> conexão profunda </span>entre mente e corpo o <em> estresse</em> e a
                     <ins> ansiedade</ins> podem manifestar-se em
-                   <span id="sintomas"> sintomas
-                    físicos</span></p>
+                    <span id="sintomas"> sintomas
+                        físicos</span>
+                </p>
             </div>
             <div class="card">
                 <h3>Autoestima</h3>
-                <p>A saúde mental saudável promove uma <span id="autoimagem"> autoimagem positiva,</span>  <em> autocompaixão </em> e <ins> confiança </ins> para enfrentar os
-                    <span id="desafios-vida"> desafios da vida</span></p>
+                <p>A saúde mental saudável promove uma <span id="autoimagem"> autoimagem positiva,</span> <em>
+                        autocompaixão </em> e <ins> confiança </ins> para enfrentar os
+                    <span id="desafios-vida"> desafios da vida</span>
+                </p>
             </div>
         </div>
+    </div>
     </div>
 
 
@@ -256,7 +228,7 @@
                 <h2 class="titulo-imagem-representativa">Apoio Profissional</h2>
                 <img src="assets/cvv-numero.png" alt="Apoio Profissional">
             </div>
-            
+
             <div class="imagem2">
                 <h2 class="titulo-imagem-representativa">Comunidade e Apoio</h2>
                 <img src="assets/comunidade-apoio.jpeg" alt="Comunudade e Apoio">
@@ -265,42 +237,44 @@
             <div class="imagem3">
                 <h2 class="titulo-imagem-representativa">Esperança e Renovação</h2>
                 <img src="assets/frase-esperanca.png" alt="Esperança e Renovação">
+            </div>
         </div>
-    </div>
-    
-    <div class="formulario-de-apoio">
-        <h2 class="titulo-formulario-de-apoio" id="formulario">Formulário de Apoio Emocional</h2>
-        <p>
-            Se você está passando por um <span id="apoio">momento difícil </span>, preencha o formulário abaixo para receber apoio emocional.
-            Lembre-se, você não está sozinho e há pessoas dispostas a ajudar.
-        </p>
-    </div>
 
-    <form action="">
-        <h2>Preencha o formulário</h2>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required>
-        <label for="idade">Idade:</label>
-        <input type="number" id="idade" name="idade" required>
-        <label for="telefone">Telefone:</label>
-        <input type="tel" id="telefone" name="telefone" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="mensagem">Como você se sente hoje? (1= muito mal, 10 = muito bem)</label>
-        <input type="number" id="mensagem" name="mensagem" min="1" max="10" required>
-        <label for="recurso-apoio">Você conhece recursos de apoio emocional?</label>
-        <select id="recurso-apoio" name="recurso-apoio" required>
-            <option value="">Selecione</option>
-            <option value="sim">Sim</option>
-            <option value="nao">Não</option>
-        </select>
-        <label for="risco-imediato">Você está em risco imediato ou em situação de crise agora?</label>
-        <select name="risco-imediato" id="risco-imediato" required>
-            <option value="">Selecione</option>
-            <option value="sim">Sim</option>
-            <option value="nao">Não</option>
-        </select>
-        <button type="submit">Enviar</button>
-    </form>
+        <div class="formulario-de-apoio">
+            <h2 class="titulo-formulario-de-apoio" id="formulario">Formulário de Apoio Emocional</h2>
+            <p>
+                Se você está passando por um <span id="apoio">momento difícil </span>, preencha o formulário abaixo para
+                receber apoio emocional.
+                Lembre-se, você não está sozinho e há pessoas dispostas a ajudar.
+            </p>
+        </div>
+
+        <form action="">
+            <h2>Preencha o formulário</h2>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" required>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Como você se sente hoje? (1= muito mal, 10 = muito bem)</label>
+            <input type="number" id="mensagem" name="mensagem" min="1" max="10" required>
+            <label for="recurso-apoio">Você conhece recursos de apoio emocional?</label>
+            <select id="recurso-apoio" name="recurso-apoio" required>
+                <option value="">Selecione</option>
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select>
+            <label for="risco-imediato">Você está em risco imediato ou em situação de crise agora?</label>
+            <select name="risco-imediato" id="risco-imediato" required>
+                <option value="">Selecione</option>
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
 </body>
+
 </html>

@@ -22,8 +22,8 @@ body {
 }
 
 #conscientizacao_logo {
-    margin-top: 10px;
-    margin-left: 60px;
+    display: flex;
+    justify-content: center
 
 }
 
@@ -60,7 +60,9 @@ a {
 
 .texto-caixa {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    border: 1px solid black;
+    gap: 50px;
 
 }
 
@@ -80,10 +82,8 @@ h2,
 
 .caixa-verde-claro {
     background-color: #817835;
-    width: 400px;
+    width: 280px;
     height: 150px;
-    margin-left: 0;
-    ;
     border-radius: 10px;
     color: white;
     padding: 10px;
@@ -92,9 +92,14 @@ h2,
 
 .texto-caixa-verde-claro {
     display: flex;
-    margin-left: 80px;
-    margin-right: 80px;
-    gap: 64px;
+    justify-content: center;
+    border: 1px solid red;
+
+}
+
+.container-primario {
+    display: flex;
+    flex-direction: column;
 }
 
 .texto h2 {
@@ -115,7 +120,6 @@ h2,
 
 .acolhimento {
     margin-top: 10px;
-    width: 500px;
     height: 110px;
     background-color: #E7AF3B;
     margin-left: 85px;
@@ -137,9 +141,9 @@ h2,
 
 /* Branch 'conteudo-site' abaixo */
 .div-set-am-p {
-    margin-top: 35px;
-    width: 1100px;
-    margin-left: 100px
+  display: flex;
+    flex-direction: column;
+    justify-content: center;    
 }
 
 #o-que-e-set-am {
@@ -152,11 +156,13 @@ h2,
 }
 
 .tres-caixas {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 30px;
     width: 1100px;
-    margin-left: 100px;
+    margin-left: 100px; */
+    display: flex;
+    justify-content: center;
 }
 
 .caixa {
@@ -193,10 +199,12 @@ h2,
 }
 
 .frases {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 1100px;
-    margin-left: 100px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    display: flex;
+    justify-content: center;
+    /* margin-left: 100px; */
+    gap:15px
 }
 
 .frase {
@@ -243,9 +251,9 @@ h2,
 }
 
 .container-laco-amarelo {
-    width: 750px;
     margin-left: 250px;
-
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -290,10 +298,12 @@ h2,
     width: 350px;
     height: 200px;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-#nome-depoimento3, #nome-depoimento2, #nome-depoimento1 {
+#nome-depoimento3,
+#nome-depoimento2,
+#nome-depoimento1 {
     background-color: #E7AF3B;
     font-size: 21px;
 }
@@ -310,7 +320,7 @@ h2,
 .imagem3 img {
     width: 320px;
     height: 480px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .imagens-flex {
@@ -339,7 +349,7 @@ h2,
     font-size: 20px;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -348,7 +358,7 @@ form{
 
 form label,
 form input,
-form h2{
+form h2 {
     color: #5F6A3E;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 10px;
@@ -356,7 +366,7 @@ form h2{
     text-align: left;
 }
 
-form input{
+form input {
     padding: 5px;
     border: 1px solid #5F6A3E;
     border-radius: 5px;
@@ -372,8 +382,11 @@ form h2 {
 }
 
 /* Branch listas-aprendizados abaixo*/
-.listas-aprendizados {
-    margin-left: 120px
+
+.h2-listas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .listas-aprendizados h2 {
@@ -381,34 +394,34 @@ form h2 {
     margin-left: 100px;
 }
 
-/* .lista-ordenada{
-    display: flex;
-    justify-content:flex-start;
-} */
+
 .lista-ordenada-desordenada {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 120px;
-    /* border: 1px solid black;  */
+
 }
 
 .cinco-caixas-grid {
-    width: 1200px;
+    display: grid;
+
 }
 
 .tres-caixas-2 {
-display: flex;
-justify-content: center;
-gap:10px;   
-margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
 }
-.importancia-saude-mental{
-    text-align: center;
-    margin-right: 320px;
+
+.importancia-saude-mental {
+    display: flex;
+    justify-content: center;
 }
+
 .card {
     background-color: #5F6A3E;
-    width:160px;
+    width: 160px;
     border-radius: 10px;
     padding: 10px;
 }
