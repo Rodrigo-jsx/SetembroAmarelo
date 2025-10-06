@@ -24,7 +24,6 @@ body {
 #conscientizacao_logo {
     display: flex;
     justify-content: center
-
 }
 
 .titulo-principal {
@@ -47,7 +46,8 @@ nav {
     padding: 10px;
 
 }
-.div-p{
+
+.div-p {
     width: 900px;
 }
 
@@ -144,10 +144,10 @@ h2,
 
 /* Branch 'conteudo-site' abaixo */
 .div-set-am-p {
-  display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center; 
-    align-items: center;   
+    justify-content: center;
+    align-items: center;
 }
 
 #o-que-e-set-am {
@@ -195,10 +195,7 @@ h2,
 }
 
 .frases-que-inspiram h2 {
-    /* text-align: center; */
     color: #5F6A3E;
-    /* width: 400px; */
-    /* margin-right: 60px; */
 
 }
 
@@ -208,7 +205,7 @@ h2,
     display: flex;
     justify-content: center;
     /* margin-left: 100px; */
-    gap:15px
+    gap: 15px
 }
 
 .frase {
@@ -235,15 +232,17 @@ h2,
     border-width: 5px;
     border-radius: 10px;
 }
-.laco-amarelo-h2{
+
+.laco-amarelo-h2 {
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
 }
+
 .laco-amarelo-h2 h2 {
-    
+
     /* border: 1px solid black; */
- color: #5F6A3E;
+    color: #5F6A3E;
 }
 
 
@@ -252,17 +251,17 @@ h2,
     justify-content: center;
     width: 900px;
 }
- 
+
 
 #apoio-2 {
     background-color: #E7AF3B;
 }
 
 .container-laco-amarelo {
-  
+
     display: flex;
     justify-content: center;
-    
+
 }
 
 
@@ -399,7 +398,7 @@ form h2 {
 }
 
 .listas-aprendizados h2 {
-    color: black;
+    color: #5F6A3E;
     /* margin-left: 100px; */
 }
 
@@ -409,12 +408,8 @@ form h2 {
     justify-content: center;
     gap: 120px;
 
-}
-
-.cinco-caixas-grid {
-    display: grid;
-
-}
+} 
+ 
 
 .tres-caixas-2 {
     display: flex;
